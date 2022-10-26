@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+body {
+    background-color: $bgColor;
+    color: $textColor
+}
+
+h3 {
+    color: red;
+    border: 2px solid $borderColor;
+}
+
+nav {
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        
+        li {
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: $textColor;
+            font-size: $normalSize;
+            padding: 2px;
+            background: $linkBgColor;
+
+            &:hover {
+                background: $linkBgHover;
+                color: $LinkColorHoverText
+            }
+        }
+    }
+}
