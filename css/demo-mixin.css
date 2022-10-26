@@ -1,0 +1,27 @@
+.success {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(237, 239, 240);
+  background-color: #333;
+}
+.success:hover {
+  cursor: pointer;
+  color: rgb(9, 8, 8);
+  background: rgb(23, 210, 42);
+}
+
+.remove {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(191, 200, 21);
+  background-color: rgb(194, 54, 54);
+}
+.remove:hover {
+  cursor: pointer;
+  color: rgb(9, 8, 8);
+  background: rgb(23, 210, 42);
+}
+
+/*# sourceMappingURL=demo-mixin.css.map */

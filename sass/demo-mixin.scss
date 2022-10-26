@@ -1,0 +1,21 @@
+@mixin button ($bgColor, $color) {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: $color;
+    background-color: $bgColor;
+
+    &:hover {
+        cursor: pointer;
+        color: rgb(9, 8, 8);
+        background: rgb(23, 210, 42);
+    }
+}
+
+.success {
+    @include button(#333, rgb(237, 239, 240));
+}
+
+.remove {
+    @include button(rgb(194, 54, 54), rgb(191, 200, 21));
+}

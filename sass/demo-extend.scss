@@ -1,0 +1,14 @@
+.register {
+    color: #FFF;
+    background: orange;
+    font-size: 1.1rem;
+    border: none;
+} 
+
+.content {
+    @extend .register;
+    max-width: 500px;
+    padding: 15px;
+    line-height: 30px;
+    margin-top: 10px;
+}
